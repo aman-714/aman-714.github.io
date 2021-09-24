@@ -123,11 +123,11 @@ html {
   flex-direction: column;
   text-align: justify;
   height: 100%;
+  background-color: #000000dc;
 }
 #about h1 {
-  color: black;
+  color: white;
   margin: 55px;
-  text-decoration: underline;
 }
 .about {
   display: flex;
@@ -135,19 +135,22 @@ html {
   margin-bottom: 20px;
 }
 .about img {
-  width: 500px;
   height: 400px;
-  padding: 0px 30px;
+  border: 5px solid darkorchid;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 .name {
   padding: 10px;
 }
 .name h2 {
+  color: rgb(201, 199, 199);
   font-size: 2rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .name p {
   font-size: 1.2rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: darkblue;
+  color: rgb(165, 165, 165);
 }
