@@ -127,6 +127,7 @@ html {
 #about h1 {
   color: black;
   margin: 55px;
+  text-decoration: underline;
 }
 .about {
   display: flex;
@@ -143,7 +144,10 @@ html {
 }
 .name h2 {
   font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .name p {
   font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkblue;
 }
